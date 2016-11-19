@@ -102,6 +102,9 @@ echo "Installing the dependencies"
 apt_install libunwind8 gettext
 apt_install libstdc++6
 
+echo "Installing MySql"
+apt_isntall mysql
+
 mkdir -p ${BUILD_DIR}/dotnet
 
 echo "Installing .NET CORE ${CORE_VERSION} from ${CORE_DOWNLOAD_LOCATION}"
