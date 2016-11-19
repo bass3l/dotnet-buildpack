@@ -99,7 +99,7 @@ fi
 echo "Installing the dependencies"
 apt_install libunwind8 gettext
 apt_install libstdc++6
-apu_update
+apt_update
 
 mkdir -p ${BUILD_DIR}/dotnet
 
