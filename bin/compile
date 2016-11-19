@@ -103,7 +103,7 @@ apt_install libunwind8 gettext
 apt_install libstdc++6
 
 echo "Installing MySql"
-apt_isntall mysql
+apt_install mysql
 
 mkdir -p ${BUILD_DIR}/dotnet
 
