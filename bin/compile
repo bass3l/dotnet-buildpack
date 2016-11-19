@@ -85,7 +85,7 @@ fi
 
 # Temporary fix noliar/dotnet-buildpack#8
 if [[ "${CORE_VERSION}" == "latest" && "${CORE_CHANNEL}" == "preview" ]]; then
-	CORE_VERSION="1.0.0-preview2-003175"
+	CORE_VERSION="1.0.0-preview2-003131"
 fi
 
 CORE_VERSION_FIRST="$CORE_VERSION"
@@ -96,7 +96,7 @@ fi
 
 : ${CORE_DOWNLOAD_LOCATION:="https://dotnetcli.blob.core.windows.net/dotnet/${CORE_CHANNEL}/Binaries/${CORE_VERSION_FIRST}/dotnet-dev-ubuntu-x64.${CORE_VERSION}.tar.gz"}
 
-CORE_DOWNLOAD_LOCATION="https://download.microsoft.com/download/B/0/0/B00543E8-54D9-4D4A-826B-84348956AA75/dotnet-ubuntu-x64.1.0.1.tar.gz"
+CORE_DOWNLOAD_LOCATION="https://download.microsoft.com/download/1/5/2/1523EBE1-3764-4328-8961-D1BD8ECA9295/dotnet-dev-ubuntu-x64.1.0.0-preview2-003131.tar.gz"
 
 echo "Installing the dependencies"
 apt_install libunwind8 gettext
